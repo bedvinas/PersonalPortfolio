@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainHomeSection />
+    <Projects />
   </div>
 </template>
 
@@ -8,16 +8,22 @@
 // @ is an alias to /src
 /* import HelloWorld from '@/components/HelloWorld.vue' */
 import MainHomeSection from "@/components/MainHomeSection.vue";
+import Nav from "@/components/Nav.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
   name: "home",
   components: {
-    MainHomeSection
+    MainHomeSection,
+    Nav,
+    Projects
   }
 };
 </script>
 
-<style scoped>
-
+<style>
+html {
+	scroll-behavior: smooth;
+}
 </style>
 

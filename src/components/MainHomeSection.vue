@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center intro-bg w-full h-screen p-6">
+  <div id="landing-section" class="flex flex-col justify-center items-center intro-bg w-full h-screen p-6">
     <div class="flex justify-center w-full pb-2">
       <!-- <img
         src="../assets/cv-photo.png"
@@ -16,11 +16,11 @@
     <div class="text-center border border-white rounded-lg p-2">
       <p class="text-white text-2xl font-bold">EDVINAS BUZAS</p>
       <p class="text-blue-900 text-2xl font-black">FULL-STACK WEB DEVELOPER</p>
-      <div class="flex text-center items-center border-t border-gray-200 border-dashed mt-2 p-2">
-        <p class="text-gray-300 text-xs sm:text-sm p-1 sm:p-2">HTML / CSS / JS</p>
-        <p class="text-gray-300 text-xs sm:text-sm p-1 sm:p-2">Angular / Vue / React</p>
-        <p class="text-gray-300 text-xs sm:text-sm p-1 sm:p-2">NodeJS & ExpressJS</p>
-        <p class="text-gray-300 text-xs sm:text-sm p-1 sm:p-2">MongoDB</p>
+      <div class="text-gray-300 flex text-center items-center border-t border-gray-200 border-dashed mt-2 p-2">
+        <p class="text-xs sm:text-sm p-1 sm:p-2">HTML / CSS / JS</p>
+        <p class="text-xs sm:text-sm p-1 sm:p-2">Angular / Vue / React</p>
+        <p class="text-xs sm:text-sm p-1 sm:p-2">NodeJS & ExpressJS</p>
+        <p class="text-xs sm:text-sm p-1 sm:p-2">MongoDB</p>
       </div>
       <!-- Social area -->
       <div class="flex flex-col mt-2 p-2">
@@ -35,9 +35,10 @@
         </div>
       </div>
     </div>
-    <button
+    <a
+      href="#nav"
       class="flex items-center bg-transparent hover:bg-blue-900 text-blue-900 font-bold hover:text-white border border-blue-900 rounded m-10 p-2 shadow-lg"
-    ><i class="fas fa-angle-double-down mr-2"></i>View portfolio</button>
+    ><i class="fas fa-angle-double-down mr-2"></i>View portfolio</a>
 
     <!-- <div class="flex flex-col sm:flex-row items-center w-full border shadow-lg rounded-lg pt-2 pb-4">
           <div class="">
