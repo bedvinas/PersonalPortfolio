@@ -6,13 +6,13 @@
           <a href="#landing-section" class="text-blue-900 hover:text-red-500 font-black mr-4">
             <i class="fas fa-angle-double-up fa-lg"></i>
           </a>
-          <router-link to="/projects" class="border-2 rounded-lg border-red-500 text-blue-900 text-lg font-black px-2 mr-2 sm:mr-4 link-active ">
+          <router-link to="/projects" class="text-blue-900 text-sm hover:text-red-500 font-black mr-2 sm:mr-4" active-class="border-2 rounded-lg border-red-500 text-lg link-active px-2">
             PROJECTS
           </router-link>
-          <router-link to="/education" class="text-blue-900 text-sm hover:text-red-500 font-black mr-2 sm:mr-4">
+          <router-link to="/education" class="text-blue-900 text-sm hover:text-red-500 font-black mr-2 sm:mr-4" active-class="border-2 rounded-lg border-red-500 text-lg link-active px-2">
             EDUCATION
           </router-link>
-          <router-link to="/more" class="text-blue-900 text-sm hover:text-red-500 font-black">
+          <router-link to="/more" class="text-blue-900 text-sm hover:text-red-500 font-black" active-class="border-2 rounded-lg border-red-500 text-lg link-active px-2">
             MORE
           </router-link>
         </div>
@@ -24,7 +24,7 @@
 </div>
 </template>
 
-<style scoped>
+<style>
 .link-active {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
